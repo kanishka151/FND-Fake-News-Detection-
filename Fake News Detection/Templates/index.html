@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Fake news detector</title>
+        <link rel="stylesheet", href="/static/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section class="header">
+            
+            <div class="title">
+                <h1>Fake News Detector</h1>
+                <p>A machine learning based solution for you to check whether a news is fake or not.</p>
+                <div class="wrapper">
+                    <div class="input-box">
+                        <form action="/detect" method="POST">
+
+                            <textarea class="textarea" placeholder="Enter your article here" name="news" id="news" disable="disable"></textarea>
+
+                            <button class="button" type ="submit" >
+                                Detect
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+
+
+    </body>
+</html>
